@@ -1,0 +1,27 @@
+{
+    "name": "group3-m2/contactform",
+    "description": "simple contact form",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Group3M2\\Contactform\\": "packages/group3-m2/contact-form/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "SamBo Dara",
+            "email": "soksambo0103@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Group3M2\\ContactForm\\ContactFormServiceProvider"
+            ]
+        }
+    }
+}
